@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPFVendas.Views.frmPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVendas.Views"
+        mc:Ignorable="d"
+        Title="WPF Vendas" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="792">
+            <MenuItem Header="_Arquivo" Height="46" Width="62">
+                <MenuItem Header="_Sair" HorizontalAlignment="Left" Height="46" Width="140" Click="MenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Cadastrar" Height="46" Width="68">
+                <MenuItem Header="_Produto" HorizontalAlignment="Left" Height="46" Width="140" Click="MenuItem_Click_1"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
