@@ -47,5 +47,11 @@ namespace WPFVendas.Views
                 new frmCadastrarProduto();
             frm.ShowDialog();
         }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            frmCadastrarVenda frm = new frmCadastrarVenda();
+            frm.ShowDialog();
+        }
     }
 }

@@ -77,6 +77,9 @@
     <Compile Include="Views\frmCadastrarProduto.xaml.cs">
       <DependentUpon>frmCadastrarProduto.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\frmCadastrarVenda.xaml.cs">
+      <DependentUpon>frmCadastrarVenda.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmPrincipal.xaml.cs">
       <DependentUpon>frmPrincipal.xaml</DependentUpon>
     </Compile>
@@ -113,6 +116,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\frmCadastrarProduto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\frmCadastrarVenda.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -13,6 +13,7 @@
             </MenuItem>
             <MenuItem Header="_Cadastrar" Height="46" Width="68">
                 <MenuItem Header="_Produto" HorizontalAlignment="Left" Height="46" Width="140" Click="MenuItem_Click_1"/>
+                <MenuItem Header="_Venda" HorizontalAlignment="Left" Height="46" Width="140" Click="MenuItem_Click_2"/>
             </MenuItem>
         </Menu>
 

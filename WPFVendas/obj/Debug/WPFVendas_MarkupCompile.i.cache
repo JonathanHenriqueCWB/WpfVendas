@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Aluno\source\repos\WPFVendas\WPFVendas\obj\Debug\
+C:\ProfessorDiogo\WPFVendas\WPFVendas\obj\Debug\
 WPFVendas
 none
 false
 DEBUG;TRACE
-C:\Users\Aluno\source\repos\WPFVendas\WPFVendas\App.xaml
-2-120501255
+C:\ProfessorDiogo\WPFVendas\WPFVendas\App.xaml
+3538642493
 
-16-449319203
-161900220688
-Views\frmCadastrarProduto.xaml;Views\frmPrincipal.xaml;
+171008427722
+16-1271175383
+Views\frmCadastrarProduto.xaml;Views\frmCadastrarVenda.xaml;Views\frmPrincipal.xaml;
 
 False
 

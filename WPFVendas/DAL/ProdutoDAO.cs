@@ -26,5 +26,17 @@ namespace WPFVendas.DAL
             return ctx.Produtos.FirstOrDefault
                 (x => x.Nome.Equals(p.Nome));
         }
+
+        public static List<Produto> ListarProdutos()
+        {
+            return ctx.Produtos.ToList();
+        }
+
+        public static Produto BuscarProdutoPorId(int id)
+        {
+            //return ctx.Produtos.FirstOrDefault
+            //    (x => x.ProdutoId == id);
+            return ctx.Produtos.Find(id);
+        }
     }
 }
